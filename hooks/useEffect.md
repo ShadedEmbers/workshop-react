@@ -20,7 +20,7 @@ const MyComponent = () => {
     setTodos(response);
   };
 
-  useEffect(async () => {
+  useEffect(() => {
     getTodoItems();
   }, []);
 
